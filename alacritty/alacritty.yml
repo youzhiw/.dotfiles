@@ -1,0 +1,23 @@
+font:
+  # The normal (roman) style of the font.
+  normal:
+    family: Hack
+    style: Regular
+
+  # The bold style of the font.
+  bold:
+    family: Hack
+    style: Bold
+
+  # The italic style of the font.
+  italic:
+    family: Hack
+    style: Italic
+
+  # The bold italic style of the font.
+  bold_italic:
+    family: Hack
+    style: Bold Italic
+
+  # Size of the font.
+  size: 12.0
