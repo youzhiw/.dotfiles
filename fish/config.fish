@@ -1,4 +1,3 @@
-    # Commands to run in interactive sessions can go here
 # Check if we're in an interactive shell and not already inside tmux
 if status is-interactive
     and not set -q TMUX
@@ -10,7 +9,7 @@ set -x EDITOR nvim
 
 set fish_greeting
 
-fastfetch -l /home/youzhi/Pictures/Wallpapers/02ascii.txt
+fastfetch 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /home/youzhi/anaconda3/bin/conda
@@ -23,10 +22,4 @@ else
     end
 end
 # <<< conda initialize <<<
-
-set -gx NVM_DIR "$HOME/.nvm"
-bass source $NVM_DIR/nvm.sh
-bass source $NVM_DIR/bash_completion
-
-alias gst 'git status'
 
